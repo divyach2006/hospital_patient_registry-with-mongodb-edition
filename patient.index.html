@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Patient Registry</title>
+    <link rel="stylesheet" href="/styleapp2.css">
+</head>
+<body>
+    <h1>Hospital Patient Registry</h1>
+    <form action="/register" method="POST">
+      Patient Name
+<input type="text" name="patientName" placeholder="Enter patient name">
+
+Date of Admission
+<input type="date" name="admissionDate">
+
+Illness Name
+<input type="text" name="illness" placeholder="Enter illness name">
+        <br><br>
+        <button type="submit">Register patient</button>
+    </form>
+    <br><br>
+<a href="/patients" class="view-btn">View Registered Patients</a>
+</body>
+</html>
